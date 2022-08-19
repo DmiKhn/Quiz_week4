@@ -12,7 +12,7 @@
   background: #fff;
   padding: 22px 30px;
   font-size: 18px;
-  color: #ccc;
+  /* color: #ccc; */
 }
 
 .form__input::placeholder {
