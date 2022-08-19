@@ -1,0 +1,23 @@
+.inner__section {
+  background: #fff;
+  color: black;
+  padding: 83px 0 70px 0;
+}
+
+.inner__section--bg--grey {
+  background: #F4F5F5;
+}
+
+.inner__section__title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 70px;
+}
+
+.inner__section__title--reviews {
+  margin-bottom: 50px;
+}
+
+.inner__section--bg--grey--reviews {
+  padding: 65px 0 95px 0;
+}

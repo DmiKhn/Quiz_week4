@@ -1,0 +1,148 @@
+.btn {
+  display: inline-block;
+  background: #8F00FF;
+  border-radius: 4px;
+  padding: 18px 40px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background: #741BBA;
+  transition: 0.5s;
+}
+
+.btn__card {
+  display: inline-block;
+  color: white;
+  background: #8F00FF;
+  border-radius: 4px;
+  padding: 18px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  transition: 0.5s;
+}
+
+.btn__card:hover {
+  outline: none;
+  background: #fff;
+  color: #8F00FF;
+  border-color: #8F00FF;
+  /* border: 1px solid #8F00FF; */
+  border-radius: 4px;
+  transition: 0.5s;
+}
+
+.btn__card--black {
+  display: inline-block;
+  border: 1px solid transparent;
+  color: white;
+  background: #2B2B2B;
+  border-radius: 4px;
+  padding: 18px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.btn__card--black:hover {
+  outline: none;
+  color: #2B2B2B;
+  background: #fff;
+  border-color: #2B2B2B;
+  transition: 0.5s;
+}
+
+
+.btn__card--white {
+  display: inline-block;
+  color: #8F00FF;
+  background: white;
+  border-style: solid;
+  border-color: #8F00FF;
+  border-radius: 4px;
+  border-width: 1px;
+  padding: 18px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.btn__card--services--white {
+  display: inline-block;
+  color: #8F00FF;
+  background: white;
+  border-style: solid;
+  border-color: #8F00FF;
+  border-radius: 4px;
+  border-width: 1px;
+  padding: 16px 39px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.btn__card--services--white:hover {
+  background: #8F00FF;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.btn__card--services--purple {
+  display: inline-block;
+  color: #fff;
+  background: #8F00FF;
+  border-style: solid;
+  border-color: #8F00FF;
+  border-radius: 4px;
+  border-width: 1px;
+  padding: 16px 39px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.btn__card--services--purple:hover {
+  background: #fff;
+  color: #8F00FF;
+  border-style: solid;
+  border-color: #8F00FF;
+  border-radius: 4px;
+  border-width: 1px;
+  transition: 0.5s;
+}
+
+.btn__card--last {
+  color: white;
+  background: none;
+  border-style: solid;
+  border-color: white;
+  border-radius: 4px;
+  border-width: 1px;
+  padding: 18px 39px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.btn__card--white:hover {
+  background: #8F00FF;
+  color: #fff;
+  transition: 0.5s;
+}

@@ -1,0 +1,20 @@
+/* .logo {
+  display: flex; 
+  padding-top: 43px;
+  position: absolute;
+  top: 34px;
+  left: 0;
+} */
+
+/* .logo__quiz {
+  width: 40%;
+  height: 35%;
+} */
+
+.logo {
+  width: 155px;
+}
+
+.logo__quiz {
+  width: 100%;
+}

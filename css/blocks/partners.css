@@ -1,0 +1,33 @@
+.partners__link {
+  text-decoration: none;
+}
+
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.partners__item:first-child {
+  margin-left: 0;
+}
+
+.partners__item:nth-child(4n+1) {
+  margin-left: 0;
+  justify-content: flex-start;
+}
+
+li.partners__item:nth-child(4n+4) {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.partners__item {
+  min-width: 218px;
+  min-width: 263px;
+  flex-grow: 1;
+  margin-right: 14px;
+  margin-bottom: 52px;
+  display: flex;
+  justify-content: center;
+}

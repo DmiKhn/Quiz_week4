@@ -1,0 +1,15 @@
+.top-line {
+  display: flex;
+  flex-direction: column;
+  min-height: 415px;
+  background: url("../../img/back-1.png")top 55% right no-repeat;
+  padding-bottom: 8px;
+}
+
+.container--top-line {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
+

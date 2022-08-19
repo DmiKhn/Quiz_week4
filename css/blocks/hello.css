@@ -1,0 +1,45 @@
+.hello {
+  backdrop-filter: grayscale(100%);
+}
+
+.hello__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 400px;
+  animation: apperance 1s linear;
+}
+
+@keyframes apperance {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  20%, 50%, 80% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-30px);
+  }
+
+  70% {
+    transform: translateY(-15px);
+  }
+
+  90% {
+    transform: translateY(-4px);
+  }
+
+  100% {
+    opacity: 100;
+    transform: translateY(0);
+  }
+
+}
+
+.hello__logo {
+  margin-bottom: 20px;
+}

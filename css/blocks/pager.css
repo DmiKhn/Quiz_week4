@@ -1,0 +1,68 @@
+.pager--news {
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 142px;
+}
+
+.pager--services, .pager--reviews {
+  color: black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 24px;
+  margin-bottom: 0;
+}
+
+.pager__name {
+  padding-top: 4px;
+  vertical-align: middle;  
+}
+
+.pager__list {
+  display: flex;
+}
+
+.pager__name {
+  margin-right: 28px;
+  vertical-align: middle;
+}
+
+.pager__item  {
+  display: flex;
+  vertical-align: middle;
+}
+
+.pager__link {
+  display: block;
+  line-height: 32px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.pager__link-white {
+  color: white;
+  display: block;
+  line-height: 32px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.pager__item--active {
+  background: #8F00FF;
+  border-radius: 50%;
+}
+
+.pager__item:hover {
+  color: white;
+  background: #8F00FF;
+  border-radius: 50%;
+  transition: 0.3s;
+}
