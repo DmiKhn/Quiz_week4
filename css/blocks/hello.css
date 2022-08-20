@@ -1,13 +1,21 @@
+.wrapper--hello--page {
+  height: 100%;
+}
+
 .hello {
+  height: 100%;
   backdrop-filter: grayscale(100%);
 }
 
-.hello__block {
+.hello__container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 400px;
+  height: 100%;
+}
+
+.hello__block {
+  text-align: center;
   animation: apperance 1s linear;
 }
 

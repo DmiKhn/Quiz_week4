@@ -58,11 +58,12 @@
 .pager__item--active {
   background: #8F00FF;
   border-radius: 50%;
+  transition: border-radius 0.3s;
 }
 
 .pager__item:hover {
   color: white;
   background: #8F00FF;
   border-radius: 50%;
-  transition: 0.3s;
+  transition: border-radius 0.3s;
 }

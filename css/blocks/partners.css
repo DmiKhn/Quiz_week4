@@ -30,4 +30,11 @@ li.partners__item:nth-child(4n+4) {
   margin-bottom: 52px;
   display: flex;
   justify-content: center;
+  filter: grayscale(100%);
+  transition: filter 0.2s;
+}
+
+.partners__item:hover {
+  filter: grayscale(0%);
+  transition: filter 0.2s;
 }
